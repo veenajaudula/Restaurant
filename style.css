@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #0067ac;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+/* Navbar Start */
+#navbar{
+    background: transparent;
+    padding: 0px 10% 0px;
+}
+#logo img{
+    width: 190px;
+    margin-top: 3px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #0067ac;
+}
+#nvabar input{
+    border-radius: 50px;
+}
+#btn{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #0067ac;
+    background: transparent;
+    transition: 0.5s;
+}
+#btn:hover{
+    background: #0067ac;
+    color: white;
+}
+/* Navbar End */
+/* Section One Styles */
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.one .left {
+    flex: 1;
+}
+
+.one .left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.one .left h3 {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.one .left button {
+    background-color: #0067ac;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.one .features {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.one .feature img {
+    height: 2rem;
+}
+
+.one .feature p {
+    font-size: 0.9rem;
+}
+
+.one .right {
+    flex: 1;
+    position: relative;
+}
+
+.one .right img {
+    width: 100%;
+    height: none;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+/* Section Three Styles */
+.three {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    z-index: 0;
+    
+    
+}
+
+.three h3 {
+    font-size: 2rem;
+    color: #0067ac;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    
+    
+}
+
+.three h5 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+   
+}
+
+.offer {
+    flex: 1;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+    margin: 0.5rem;
+}
+
+.offer img {
+    height: 3rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.offer h6 {
+    font-size: 1.2rem;
+    color: #0067ac;
+    margin-bottom: 0.5rem;
+}
+
+.offer p {
+    font-size: 0.9rem;
+    color: #666;
+}
+/* Our Menu Strat */
+.menu{
+    padding: 100px 11% 100px;
+}
+.menu h3{
+    text-align: center;
+    color:#0067ac;
+}
+.menu h2{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.menu h2 i{
+    color: #0067ac
+}
+.menu h6{
+    font-size: 16px;
+}
+.rating i{
+    color: orange;
+    font-size: 13px;
+}
+.menu p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.menu p i{
+    float: right;
+    color: #0067ac;
+    cursor: pointer;
+}
+.menu img {
+    border-image-width: 1dvh;
+}
+/* Our Menu End */
+
+
+
+/* Footer Styles */
+footer {
+   background-color:#0067ac ;
+   color:white;
+    padding: 2rem 0;
+    height: fit-content;
+}
+
+.special-offer {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.special-offer h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.special-offer p {
+    font-size: 1rem;
+    color: #181616;
+    margin-bottom: 2rem;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input {
+    padding: 1rem;
+    width: 70%;
+    border: none;
+    border-radius: 30px;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.footer-button {
+    background-color: #0067ac;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+   
+    
+}
+
+.footer-button:hover {
+    
+    background: linear-gradient(to bottom #bbdefb,#0067ac);
+    
+}
+
+.details {
+    text-align: center;
+}
+
+.detail h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.detail ul {
+    list-style: none;
+}
+
+.detail ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    header {
+        padding: 2rem 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .sub-menu {
+        padding: 0 4rem;
+    }
+
+    .one .left h1 {
+        font-size: 3.5rem;
+    }
+
+    .one .left h3 {
+        font-size: 1.3rem;
+        width: 70%;
+        line-height: 2rem;
+    }
+
+    .one .left button {
+        width: 250px;
+        margin-top: 4vh;
+    }
+
+    .one .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .one .right .foreground {
+        max-width: 70%;
+        margin-left: 10%;
+    }
+    
+    .three {
+        height: 80vh;
+    }
+
+    .three .offers {
+        width: 70%;
+        margin: 5vh auto;
+    }
+
+    
+    /* Contact Section Start */
+.contact{
+    padding: 100px 11% 100px;
+}
+.contact .col-md-5{
+    background: #0067ac;
+    border-radius: 10px;
+    color: white;
+}
+.contact h3{
+    margin-top: 30px;
+}
+.contact i span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* Contact Section End */
+/* Footer Start */
+#footer{
+    padding: 15px 11% 15px;
+}
+#footer .f-content{
+    text-align: center;
+}
+.f-logo img{
+    width: 250px;
+    cursor: pointer;
+}
+
+
+/* Footer End */
+
+}
